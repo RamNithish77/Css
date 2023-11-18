@@ -1,0 +1,29 @@
+1.Ex: p{color:red;}
+    "p" is selector
+    "color" is property name
+    "red" is property value
+2.class is an attribute of html that we can use any element to   select and style them or use them.classes can a       multiple same names.
+3.id is an attribute of html that we can use any element to   select and style them or use them.id can only have one name and used for only one element.
+4.* is css reset thst selects every thing on the page
+5.element selector
+            ex: p{}
+            where p is paragraph and element selector
+6.Specificity
+   id>class>element selector
+7.colors
+    "background-color" sets background color
+    "color" sets the color of the font
+    **Ways of setting color
+    1.Normal Ways
+    2.rbga values(red,blue,green,constrast)
+    3.hex values
+    4.hsl values(hue,satuaration,lightness)
+    **color.co web site for some awesome colors
+8."px" is used to set the size of the font
+  "%" is used to set the size of the element
+  "rem" is root em that means 1rem = 1*size of root element
+  "em" em is that looks at parent element
+  "ch" sets no of charecters to be used
+  "vw" sets 1% of view port width
+  "vh" sets 1% of view port height
+  
