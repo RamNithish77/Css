@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <title>columns</title>
+
+    <style>
+        .con{
+            column-count: 4;
+            column-width: 100px;
+            column-rule: 2px solid black;
+            column-gap: 3rem;
+            font-family: 'DM Serif Display', serif;
+            font-family: 'Montserrat', sans-serif;
+        }
+        .con p{
+            margin-top: 0px;
+        }
+        h2{
+            font-size: 1.5rem;
+            background-color: black;
+            color: white;
+            padding: 2px;
+            text-align: center;
+            break-inside: avoid;
+        }
+        .con .q{
+            text-align: center;
+            margin-top: 25px;
+            font-size: 3rem;
+            column-span: all;
+        }
+    </style>
+</head>
+<body>
+    <div class="con">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet esse praesentium eaque magnam cupiditate vitae voluptate odio, est laborum cum officia vero ipsam hic similique.</p>
+        <p>Laborum cumque consequatur nostrum aliquid consectetur. Veniam quisquam ullam dolorum maiores, non sapiente enim est debitis modi sint rerum, voluptatibus minima aspernatur nemo nobis dolore!</p>
+        <h2>Goku</h2>
+        <p>Excepturi, ad! Accusamus dolore nulla veritatis eaque, iste repellat aspernatur perferendis ullam rem minus, dolorem labore corrupti odit laudantium? Ad molestiae sed atque consequatur tempora.</p>
+        <p class="q">i am son Goku</p>
+        <p>Distinctio, repellendus similique cupiditate iure officia voluptas omnis minus impedit laudantium quam repellat eaque temporibus aspernatur debitis ut provident, inventore at a fugit harum consectetur.</p>
+        <p>Inventore, et. Iure aperiam neque sint molestias error officiis labore quam, amet commodi atque itaque porro enim quaerat quisquam doloribus vero voluptate accusamus voluptates rem?</p>
+    </div>
+</body>
+</html>
