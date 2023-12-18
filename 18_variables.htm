@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>variables</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        :root{
+            --bgcolor:red;
+            --textcolor:white;
+            --size:3rem;
+            --shadow:5px 5px 5px black;
+        }
+        body{
+             background-color: var(--bgcolor); 
+             background-image: radial-gradient(white,black);
+         }
+        .con{
+            min-width: 800px;
+            min-height: 100vh;
+            margin-inline: auto;
+           
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .item{
+            height: 200px;
+            width: 150px;
+            border: 1px solid white;
+        }
+        h1{
+            text-align: center;
+            color: var(--textcolor);
+            font-size: var(--size);
+            font-weight: 300;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-shadow: var(--shadow);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>The Dragon ball</h1>
+    </header>
+    <main class="con">
+        <div class="item">hi</div>
+        <div class="item">hi</div>
+        <div class="item">hi</div> 
+        <div class="item">hi</div>
+        <div class="item">hi</div>
+        <div class="item">hi</div> 
+    </main>
+</body>
+</html>
+</html>

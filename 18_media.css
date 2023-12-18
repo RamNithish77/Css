@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media  screen and (min-width:300px){
+        body{
+            background-image: url(walpaper.jpg);
+            background-repeat: no-repeat;
+            background-size: 23%;
+            min-height: 100vh;
+            min-width: 100vw;
+            display: flex;
+            flex-direction: column;
+            color: white;
+        }
+        header{
+            height: 80px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        header p{
+            font-size: 2rem;
+            color: black;
+            font-family: monospace;
+            text-shadow: 2px 2px 2px grey;
+        }
+        ul{
+            list-style-type: none;
+        }
+        .nav{
+            margin-top: 3px;
+        }
+        .li{
+            display: inline-block;
+        }
+        .li a{
+            text-decoration: none;
+            color: black;
+            font-size: small;
+            padding:0px 5px;
+        }
+        .li:hover{
+            background-color: coral;
+        }
+        .lowerli{
+            padding: 8px 16px;
+        }
+        .lowerli a{
+            text-decoration: none;
+            color: black;
+            font-size: small;
+        }
+        .lowerli a:hover{
+            background-color: coral;
+        }
+        .superli{
+            position: relative;
+        }
+        .dp{
+            min-width: 160px ;
+            display: none;
+            position: absolute;
+        }
+        .superli:hover .dp{
+            display: block;
+        }
+        main{
+            display: flex;
+            flex-grow: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        footer{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            bottom: 0;
+        }
+}
+@media  screen and (min-width:570px){
+    body{
+        background-size: 25%;
+        color: white;
+    }
+    header{
+        height: 80px;
+    }
+    header p{
+        font-size: 2rem;
+    }
+    .nav{
+        margin-top: 8px;
+    }
+    .li{
+        padding:0px 5px;
+    }
+    .li a{
+        font-size: medium;    
+    }
+    footer{
+        height: 40px;
+    }
+}
+@media  screen and (min-width:780px){
+    body{
+        background-size: 26%;
+    }
+    header{
+        height: 90px;
+    }
+    header p{
+        font-size: 2rem;
+    }
+    .nav{
+        margin-top: 10px;
+    }
+    .li{
+        padding:0px 10px;
+    }
+    .li a{
+        font-size: large;    
+    }
+    footer{
+        height: 60px;
+    }
+}
+@media  screen and (min-width:1000px){
+    body{
+        background-size: 31%;
+    }
+    header{
+        height: 100px;
+    }
+    header p{
+        font-size: 2.1rem;
+    }
+    .nav{
+        margin-top: 12px;
+    }
+    .li{
+        padding:0px 13px;
+    }
+    .li a{
+        font-size: large;    
+    }
+    footer{
+        height: 90px;
+    }
+}

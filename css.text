@@ -138,3 +138,67 @@
     "flex-grow" decides how should the item behave while expanding the page
     "flex-shrink" decides how should the item behave while shrinking the page
     "order" is used set the order od the flex items
+23.**grid
+   "display:grid" is used to set the container in the grid
+   "grid-auto-rows" is used to set the size of row
+   "grid-auto-column" is used to set the size of the column
+   "grid-templete-column" is used to set number of columns 
+   "grid-templete-rows" is usede to set number of rows
+   "gap" is used to set gap
+   "row-gap" "column-gap" is used to perspective uses
+   "grid-column-start" is used to set start point of column block
+   "grid-column-end" is used to set end point of column block
+   "grid-column" is Shorthand for "grid-column-start"/"grid-column-end"
+   "grid-row-start" is used to set start point of row block
+   "grid-row-end" is used to set end point of row block
+   "grid-row" is Shorthand for "grid-row-start"/"grid-row-end"
+   "grid-area"is shorthand for "grid-row-start""grid-column-start""grid-row-end""grid-column-end"
+24.*image
+    "height" and "width" properties sets the heigth od the image
+    "display:block" removes the spaces under tghe image
+    "background-image:url();"is used o set the background image
+    "background-size"is used to set the backgroundimage size
+    "background-position" is used to set the background is used the podition of theb back ground image
+    "text-shadow" is used to set the shadow to text
+    "linear-gredient" is set the colors of background linealy 
+    "-webkit-background-clip" is set a text with backgroundimage on it
+25.***mediaqueries
+    syntax
+    @media screen and()
+    {
+        //code
+    }
+26.Variables
+  :root{} is pseudo element is used to initialize Variables
+  -- should be pre fixed for declaring a Variable
+27.funtions
+   var() is used for passing the Variable
+   url() is the funtion used to pass the image link
+   min() max() are funtions that take min or max values
+   clamp(minvalue,relativevalue,maxvalue)
+   calc()
+   filter for styling texts
+   attr()
+   minmax() for grid
+28.transform
+   "translate" is used move the thing in particular direction
+   "rotate" is rotate move the thing in particular direction 
+   "scale" is used increse the x y direction
+   "skew" is used to skew the element
+   "transform-orgin" is used to set where the transform start
+29.*transition
+    "transition-property" is used to set which the transition should be appilied
+    "transition-duration" is used to set time or duration for transition
+    "transition-delay" is used to set the delay of first transition
+    "transition-timing-property" is used how should the transition start and end
+30.**Animation
+    "animation-name" is used set the name for the animation
+    "animation-duration"is used to set the duartion for the animation
+    "animation-timing-property" is used how should the animation start and end
+    "animation-delay" is used to set the delay at the start
+    "animation-iteration-count" is used to set how many times the thing should be animated
+    "animation-direction" is used to set the direction of the animation
+    "animation-fill-mode" decides how the animation should be ended
+    @keyframe Identifier{
+        ---0% etc code
+    }

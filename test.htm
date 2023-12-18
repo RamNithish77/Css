@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-image: radial-gradient(white,black);
+        }
+        .con{
+            min-width: 800px;
+            min-height: 100vh;
+            margin-inline: auto;
+           
+            display: flex;
+            flex-direction: column;
+        }
+        .item{
+            min-height: 100px;
+            min-width: 100px;
+            background-color: black;
+            color: white;
+        }
+        .item:nth-child(2){
+            background-color: green;
+            flex-grow: 1;
+        }
+    </style>
+</head>
+<body>
+    <main class="con">
+        <!-- <div class="item">hi</div>
+        <div class="item">hi</div>
+        <div class="item">hi</div> -->
+        <!-- <div class="item">hi</div>
+        <div class="item">hi</div>
+        <div class="item">hi</div> -->
+    </main>
+</body>
+</html>
