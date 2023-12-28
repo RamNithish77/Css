@@ -1,0 +1,90 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transform</title>
+    <style>
+        .con{
+            height: 90vh;
+            width: 90vw;
+            margin: 20px;
+            border: 2px solid lightgrey;  
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+            font-family: monospace;
+            font-size :2rem;
+            }
+            .box{
+            position: relative;
+            height: 22%;
+            width: 20%;
+            background-color: aqua;
+            border: 1px solid gray;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            }
+            /* .box:before{
+            content: " ";
+            height: 100%;
+            width: 100%;
+            background-color: lightgray;
+            position: absolute;
+            z-index: -1;
+            } */
+            .scalex:hover{
+            transform-origin: left;
+            transform: scaleX(1.2);
+            }
+            .scaley:hover{
+            transform-origin: top;
+            transform: scaleY(1.2);
+            }
+            .scale:hover{
+                z-index: 1;
+                transform: scale(1.3);
+            }
+            .translatex:hover{
+                transform-origin: left;
+                transform: translateX(100px);
+            }
+            .translatey:hover{
+                transform-origin: top;
+                transform: translateY(100px);
+            }
+            .rotatex:hover{
+                transform-origin: left;
+                transform: rotateX(45deg);
+            }
+            .rotatey:hover{
+                transform-origin: top;
+                transform: rotateY(45deg);
+            }
+            .skewx:hover{
+                transform-origin: left;
+                transform: skewx(45deg);
+            }
+            .skewy:hover{
+                transform: skewY(45deg);
+            }
+    </style>
+ </head>
+ <body>
+    <div class="con">
+        <div class="box scalex"> scale x</div>
+        <div class="box scaley"> scale y</div>
+        <div class="box scale"> scale </div>
+        <div class="box translatex">translateX </div>
+        <div class="box translatey">translateY</div>
+        <div class="box rotatex">rotatex</div>
+        <div class="box rotatey">rotatey</div>
+        <div class="box skewx"> skewx </div>
+        <div class="box skewy"> skewy </div>
+    </div>
+ </body>
+ </html>
