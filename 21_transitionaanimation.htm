@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transition</title>
+    <style>
+        .con{
+            height: 20px;
+            width: 50px;
+            background-color: cadetblue;
+            position: relative;
+        }
+        .box{
+            position: absolute;
+            display: none;
+            height: 100px;
+            width: 100px;
+            top: 20px;
+            background-color: blueviolet;
+            /* transition-property: all;
+            transition-duration: 2s;
+            transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            transition-delay: 1s; */
+            animation: hi 1s ease-in forwards;
+        }
+        .con:hover .box{
+            display: block;
+            
+        }
+        @keyframes hi {
+            0%{
+                transform: scaleY(0%);
+                transform-origin:top ;
+            }
+            /* 25%{
+                transform: scaleY(20%);
+                transform-origin: top;
+            }
+            50%{
+                transform: scaleY(40%);
+                transform-origin: top;
+            }
+            75%{
+                transform: scaleY(60%);
+                transform-origin: top;
+            } */
+            100%{
+                transform: scaleY(100%);
+                transform-origin: top;
+            }
+        }
+        /* .translate{
+            transform: translateX(200%) translateY(300%);
+            transform: rotate(360deg);
+        } */
+    </style>
+</head>
+<body>
+    <div class="con">
+        <div class="box translate">
+        </div>
+    </div>
+</body>
+</html>
